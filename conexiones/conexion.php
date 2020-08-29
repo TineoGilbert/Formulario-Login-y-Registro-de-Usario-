@@ -3,7 +3,7 @@
 
 $link = 'mysql:host=localhost; dbname=Formulario';
 $user = 'root';
-$password = '123Tineo';
+$password = '';
 
 try {
     $pdo = new PDO($link, $user, $password);
@@ -18,7 +18,7 @@ try {
 
 $servidor = 'localhost';
 $usuario = 'root';
-$contraseña = '123Tineo';
+$contraseña = '';
 $db = 'Formulario';
 //$conexion;
 
@@ -41,7 +41,7 @@ $db = 'Formulario';
 class Conexion{
     private $servidor = 'localhost';
     private $usuario = 'root';
-    private $contraseña = '123Tineo';
+    private $contraseña = '';
     private $db = 'Formulario';
     public $conexion;
 
